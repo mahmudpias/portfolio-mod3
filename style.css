@@ -11,7 +11,7 @@ body {
     color: orange;
 }
 
-section {
+.flex {
     display: flex;
 }
 
@@ -46,4 +46,30 @@ section {
     background-image: url(dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience {
+    margin-top: 200px;
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.exp {
+    box-shadow: 10px 10px 70px gray;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    border-radius: 30px;
+    border-left: 8px solid blue;
+}
+
+.exp-name {
+    font-size: 35px;
+}
+
+footer p {
+    text-align: center;
 }
